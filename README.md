@@ -1,4 +1,4 @@
-I was asked how I would calculate the distributed median in an interview and thought it was a fairly interesting question so I decided to write a program to do it. This is a copy of that program since the repo it is in has many other commits and contains projects that I don't want to push public now.
+I was asked how I would calculate the distributed median and thought it was a fairly interesting question so I decided to write a program to do it. This is a copy of that program since the repo it is in has many other commits and contains projects that I don't want to push public now.
 
 This calculates the median across however many machines are specified (not a cli option, have to change in code). This only works in the case where the number of numbers is odd. If the number is even, the program will likely never terminate. This is because the algorithm works its way down to the middle element, but no such element exists of there are an even number of numbers.
 
